@@ -20,9 +20,9 @@
       a=+document.getElementById('a2').value;
       b=+document.getElementById('b2').value;
       c=+document.getElementById('c').value;
-      if(a == 0) {
+    if(a == 0) {
         if(b == 0) {
-            if (c == 0){
+            if (c== 0){
                 document.getElementById('result2').innerHTML = 'Vo so nghiem';
             }
             else{
@@ -35,9 +35,9 @@
     } 
     else {
       var delta;
-      delta=(b2*b2-4*a2*c);
+      delta=(b*b-4*a*c);
       if(delta==0){
-        document.getElementById('result2').innerHTML = "Phuong trinh co nghiem kep x= " + -b2/(2*a2);
+        document.getElementById('result2').innerHTML = "Phuong trinh co nghiem kep x= " + -b/(2*a);
           
       }
       else if(delta<0){
